@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Chrome Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Url loaded]]>
+    </line>
+    <line>
+      <![CDATA[Login successfull]]>
+    </line>
+    <line>
+      <![CDATA[Title Verified]]>
+    </line>
+    <line>
+      <![CDATA[url Verified]]>
+    </line>
+    <line>
+      <![CDATA[Logout successfull]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8538" started-at="2018-12-09T08:18:58Z" finished-at="2018-12-09T08:19:06Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8538" started-at="2018-12-09T08:18:58Z" finished-at="2018-12-09T08:19:06Z">
+      <class name="com.testscripts.TC_1">
+        <test-method status="PASS" signature="lauchingBrowser(java.lang.String)[pri:0, instance:com.testscripts.TC_1@af6cff]" name="lauchingBrowser" is-config="true" duration-ms="5149" started-at="2018-12-09T08:18:58Z" finished-at="2018-12-09T08:19:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Browser Launched]]>
+            </line>
+            <line>
+              <![CDATA[Url loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lauchingBrowser -->
+        <test-method status="PASS" signature="tc_1()[pri:0, instance:com.testscripts.TC_1@af6cff]" name="tc_1" duration-ms="2702" started-at="2018-12-09T08:19:03Z" finished-at="2018-12-09T08:19:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login successfull]]>
+            </line>
+            <line>
+              <![CDATA[Title Verified]]>
+            </line>
+            <line>
+              <![CDATA[url Verified]]>
+            </line>
+            <line>
+              <![CDATA[Logout successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_1 -->
+        <test-method status="PASS" signature="closingBrowser()[pri:0, instance:com.testscripts.TC_1@af6cff]" name="closingBrowser" is-config="true" duration-ms="670" started-at="2018-12-09T08:19:05Z" finished-at="2018-12-09T08:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- com.testscripts.TC_1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
